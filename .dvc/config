@@ -1,6 +1,1 @@
-[core]
-    remote = remote
-['remote "remote"']
-    url = s3://shivamlops/
-    ssl_verify = false
-    use_ssl= false
+
