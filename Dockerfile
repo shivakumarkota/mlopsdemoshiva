@@ -20,7 +20,7 @@ RUN pip install -r requirements.txt
 RUN dvc init -f --no-scm
 
 # configuring remote server in dvc
-RUN  dvc remote add -d remote s3://shivamlops/
+RUN  dvc remote add -d remote s3://shivamlopsbucket/
 
 RUN cat .dvc/config
 
