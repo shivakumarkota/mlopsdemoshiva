@@ -32,5 +32,5 @@ ENV LANG=C.UTF-8
 
 # running the application
 EXPOSE 5001
-CMD ["python", "/API/app.py",]
+CMD ["python", "app.py",]
 #CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
