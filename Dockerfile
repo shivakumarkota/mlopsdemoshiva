@@ -25,7 +25,7 @@ RUN  dvc remote add -d remote s3://shivamlopsbucket/
 RUN cat .dvc/config
 
 # pulling the trained model
-RUN dvc pull
+RUN dvc pull -v
 
 ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
