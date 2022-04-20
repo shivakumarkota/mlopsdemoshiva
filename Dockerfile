@@ -12,7 +12,7 @@ ENV AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
     AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 
 
-# install requirements
+# install requirementss
 RUN pip install "dvc[s3]"   # since s3 is the remote storage
 RUN pip install -r requirements.txt
 
