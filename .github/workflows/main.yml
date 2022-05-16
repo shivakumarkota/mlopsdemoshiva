@@ -45,8 +45,8 @@ jobs:
       - uses: azure/docker-login@v1
         with:
           login-server: shivamlopsdemo.azurecr.io
-          username: ${{shivamlopsdemo}}
-          password: ${{1SpIWK/i0umanNK6GhrIKQ2FTEfv68FR}}
+          username: ${{ shivamlopsdemo }}
+          password: ${{ 1SpIWK/i0umanNK6GhrIKQ2FTEfv68FR }}
 
       - run: |
           docker build . -t shivamlopsdemo.azurecr.io/appdb:${{ github.sha }}
