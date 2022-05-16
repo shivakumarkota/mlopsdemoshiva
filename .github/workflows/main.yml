@@ -39,5 +39,3 @@ jobs:
         run: |
           docker tag shivakumarkota/mlopsdemo ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.ap-south-1.amazonaws.com/shivamlopsdemo:latest
           docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.ap-south-1.amazonaws.com/shivamlopsdemo:latest
-          
-       
