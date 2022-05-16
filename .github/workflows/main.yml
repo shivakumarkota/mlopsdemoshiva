@@ -44,7 +44,7 @@ jobs:
       
       - uses: azure/docker-login@v1
         with:
-          login-server: yourACRname.azurecr.io
+          login-server: shivamlopsdemo.azurecr.io
           username: ${{shivamlopsdemo}}
           password: ${{1SpIWK/i0umanNK6GhrIKQ2FTEfv68FR}}
 
