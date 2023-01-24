@@ -27,6 +27,7 @@ jobs:
         run: |
           docker login --username shivakumarkota --password Shiva@960103
           docker push shivakumarkota/mlopsdemo
+          
 
       - name: Login to ECR
         id: ecr
