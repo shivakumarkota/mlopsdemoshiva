@@ -14,6 +14,7 @@ ENV AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID \
 RUN pip install "dvc[s3]"   # since s3 is the remote storage
 RUN pip install -r requirements.txt
 
+
 # initialise dvc
 RUN dvc init -f --no-scm
 
